@@ -1,31 +1,106 @@
 # 🚀 Mini Social Media App
 
-A full-stack social media web application built using **React** and **Firebase**.  
-This project demonstrates real-time features, authentication, and modern UI concepts.
+A full-stack social media web application built using **React** and **Firebase**.
+This project demonstrates modern web development concepts including real-time updates, authentication, cloud storage, and interactive UI features.
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Authentication (Login / Signup)
-- 📝 Create and view posts
-- ❤️ Like system
-- 💬 Comments (real-time)
-- 🔄 Real-time updates using Firestore
-- 👤 Basic user profiles
-- 🔔 Notifications (structure ready)
-- 📊 Analytics dashboard (basic)
-- 🧭 Navigation system
+### 🔐 Authentication
+
+* User signup and login using Firebase Authentication
+
+### 📝 Posts
+
+* Create, view, and delete posts
+* Upload images with posts
+
+### ❤️ Engagement
+
+* Like posts
+* Comment on posts in real-time
+
+### 👤 User Profiles
+
+* View user details
+* Profile information (username, bio, profile image)
+
+### 🟢 Follow System
+
+* Follow / Unfollow users
+* Track followers and following
+
+### 🔔 Notifications
+
+* Get notified for likes and comments
+
+### 📩 Real-Time Chat
+
+* One-to-one messaging system
+* Instant updates using Firestore listeners
+
+### 🔍 Search
+
+* Search posts and users
+
+### 🤖 AI Caption Generator
+
+* Generate captions using AI integration
+
+### 📊 Analytics Dashboard
+
+* Track total posts, likes, and engagement
+* Visualize data using charts
+
+### 🌙 Dark Mode
+
+* Toggle between light and dark themes
+
+### 📱 Responsive Design
+
+* Works on mobile, tablet, and desktop devices
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Frontend: React.js
-- Backend: Firebase (Auth + Firestore)
-- Routing: React Router
-- Styling: CSS
+* Frontend: React.js
+* Backend: Firebase (Firestore, Auth, Storage)
+* Styling: Tailwind CSS
+* Routing: React Router
+* Charts: Chart.js
+
+---
+
+## ⚡ Key Highlights
+
+* Real-time data synchronization
+* Scalable cloud-based backend
+* Clean and modular component structure
+* Modern UI/UX practices
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm start
+```
 
 ---
 
 ## 📁 Folder Structure
+
+```
+src/
+├── components/
+├── pages/
+├── context/
+├── firebase.js
+├── App.js
+```
+
+---
+
