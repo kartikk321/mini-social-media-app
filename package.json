@@ -1,0 +1,8 @@
+{
+  "name": "mini-social-media-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^10.0.0",
+    "react-router-dom": "^6.0.0"
+  }
+}
